@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="baseButtonStyle" parent="Widget.AppCompat.Button.Borderless" />
+
+    <!--    <style name="Theme.Freshchat.SelectedTheme" parent="BaseFreshChatTheme">-->
+    <!--        &lt;!&ndash; Customize your theme here. &ndash;&gt;-->
+    <!--        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
+    <!--        &lt;!&ndash;<item name="android:navigationBarColor">@color/colorPrimaryDark</item>&ndash;&gt;-->
+    <!--        <item name="android:statusBarColor">@color/colorPrimaryDark</item>-->
+    <!--        <item name="android:windowLightStatusBar">true</item>-->
+    <!--        &lt;!&ndash;<item name="android:windowIsTranslucent">true</item>&ndash;&gt;-->
+    <!--        <item name="android:windowTranslucentStatus">false</item>-->
+    <!--        &lt;!&ndash;<item name="android:windowTranslucentNavigation">false</item>&ndash;&gt;-->
+    <!--        <item name="android:colorControlNormal">@color/colorControlNormal</item>-->
+    <!--    </style>-->
+</resources>

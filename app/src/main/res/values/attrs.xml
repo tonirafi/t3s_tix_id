@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SocialButton">
+        <attr name="android:text" />
+        <attr name="android:textSize" />
+        <attr name="android:textColor" />
+        <attr name="android:textStyle" />
+        <attr name="android:fontFamily" />
+
+        <attr name="android:scaleType" />
+        <attr name="android:adjustViewBounds" />
+
+        <attr name="logo_src" format="reference|color" />
+        <attr name="logo_width" format="dimension" />
+        <attr name="logo_height" format="dimension" />
+        <attr name="paddingOverride" format="boolean" />
+        <attr name="click_type">
+            <enum name="login" value="0" />
+            <enum name="share" value="1" />
+        </attr>
+        <attr name="contentCentralize" format="boolean" />
+        <attr name="internalPadding" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="QSCSwapRecyclerView">
+        <attr name="style" format="enum">
+            <enum name="all" value="0" />
+            <enum name="noHeader" value="1" />
+            <enum name="noFooter" value="2" />
+        </attr>
+        <attr name="autoLoadMore" format="boolean" />
+    </declare-styleable>
+
+
+    <declare-styleable name="RoundedImageView">
+        <attr name="riv_corner_radius" format="dimension" />
+        <attr name="riv_corner_radius_top_left" format="dimension" />
+        <attr name="riv_corner_radius_top_right" format="dimension" />
+        <attr name="riv_corner_radius_bottom_left" format="dimension" />
+        <attr name="riv_corner_radius_bottom_right" format="dimension" />
+        <attr name="riv_border_width" format="dimension" />
+        <attr name="riv_border_color" format="color" />
+        <attr name="riv_mutate_background" format="boolean" />
+        <attr name="riv_oval" format="boolean" />
+        <attr name="android:scaleType" />
+        <attr name="riv_tile_mode">
+            <enum name="clamp" value="0" />
+            <enum name="repeat" value="1" />
+            <enum name="mirror" value="2" />
+        </attr>
+        <attr name="riv_tile_mode_x">
+            <enum name="clamp" value="0" />
+            <enum name="repeat" value="1" />
+            <enum name="mirror" value="2" />
+        </attr>
+        <attr name="riv_tile_mode_y">
+            <enum name="clamp" value="0" />
+            <enum name="repeat" value="1" />
+            <enum name="mirror" value="2" />
+        </attr>
+        <!--宽高比-->
+        <attr name="riv_aspect_ratio" format="float" />
+    </declare-styleable>
+
+    <declare-styleable name="HorizontalProgressBar">
+        <attr name="android:progress" />
+        <attr name="android:max" />
+        <attr name="progressColor" format="color|reference" />
+        <attr name="progressBarBackgroundColor" format="color|reference" />
+        <attr name="progressBarHeight" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="UploadImageView">
+        <attr name="progressBarViewStyle" format="enum">
+            <enum name="horizontal" value="0" />
+            <enum name="circle" value="1" />
+        </attr>
+        <attr name="defaultCover" format="reference|color" />
+    </declare-styleable>
+
+    <declare-styleable name="AlignTextView">
+        <attr name="align" format="enum">
+            <enum name="left" value="0" />
+            <enum name="center" value="1" />
+            <enum name="right" value="2" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="CalendarView">
+        <attr name="android:textSize" />
+        <attr name="android:textColor" />
+        <attr name="android:textStyle" />
+        <attr name="android:fontFamily" />
+        <attr name="selectedBackground" format="reference" />
+        <attr name="todayMarkDrawable" format="reference" />
+        <attr name="todayMarkMarginText" format="dimension" />
+        <attr name="spaceTodayMark2SelectedBackground" format="dimension" />
+        <attr name="spaceTodayMark2Text" format="dimension" />
+        <attr name="cellSize" format="dimension" />
+        <attr name="preLoadCells" format="boolean" />
+        <!--支持的日期格式 20190715-->
+        <attr name="today" format="string" />
+        <attr name="offset" format="integer" />
+        <attr name="viewMode" format="enum">
+            <enum name="week" value="0" />
+            <enum name="month" value="1" />
+        </attr>
+        <attr name="firstDayOfWeek" format="enum">
+            <enum name="SunDay" value="1" />
+            <enum name="Monday" value="2" />
+            <enum name="Tuesday" value="3" />
+            <enum name="Wednesday" value="4" />
+            <enum name="Thursday" value="5" />
+            <enum name="Friday" value="6" />
+            <enum name="Saturday" value="7" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="SortView">
+        <attr name="android:text" />
+        <attr name="android:textSize" />
+        <attr name="android:textColor" />
+        <attr name="android:textStyle" />
+        <attr name="android:fontFamily" />
+
+        <attr name="triangleSize" format="dimension" />
+        <attr name="triangleSizeRatio" format="float" />
+        <attr name="triangleInternalPadding" format="dimension" />
+        <attr name="internalPadding" />
+        <attr name="triangleColor" format="color|reference" />
+        <attr name="selectedTriangleColor" format="color|reference" />
+
+        <attr name="status" format="enum">
+            <enum name="Up" value="1" />
+            <enum name="Down" value="-1" />
+            <enum name="None" value="0" />
+        </attr>
+
+        <attr name="statusTextColor" format="boolean" />
+        <attr name="hideTriangle" format="boolean" />
+
+    </declare-styleable>
+
+</resources>

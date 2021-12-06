@@ -1,0 +1,133 @@
+<resources xmlns:target="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="BaseAppTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDrack</item>
+        <!--<item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
+        <item name="colorAccent">@color/colorPrimary</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+
+        <item name="android:textColorPrimary">@color/text_333</item>
+        <item name="android:textColorSecondary">@color/color_txt_hint</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+
+        <item name="buttonStyle">@style/defaultButtonStyle</item>
+
+        <item name="editTextBackground">@drawable/shape_rect_c4_white</item>
+        <item name="editTextColor">@color/color_txt_default</item>
+        <item name="editTextStyle">@style/defaultEditTextStyle</item>
+
+        <!-- navigation icon color -->
+        <item name="colorControlNormal">@color/colorControlNormal</item>
+
+        <item name="android:windowAnimationStyle">@style/activityAnimStyle</item>
+
+        <item name="android:colorBackground">@color/white</item>
+
+        <item name="android:radioButtonStyle">@style/defaultRadioButtonStyle</item>
+        <item name="homeAsUpIndicator">@drawable/ic_nav_back</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_nav_back</item>
+
+        <item name="android:listChoiceBackgroundIndicator">@drawable/sel_item_default</item>
+        <item name="android:listChoiceIndicatorSingle">@drawable/sel_checkbox_green_filled</item>
+
+    </style>
+
+
+    <style name="activityAnimStyle" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/slide_in_from_right</item>
+        <item name="android:activityOpenExitAnimation">@anim/slide_out_to_left</item>
+        <item name="android:activityCloseExitAnimation">@anim/slide_out_to_right</item>
+        <item name="android:activityCloseEnterAnimation">@anim/slide_in_from_left</item>
+
+    </style>
+
+
+    <style name="baseButtonStyle" parent="@android:style/Widget.Button" />
+
+    <style name="defaultButtonStyle" parent="baseButtonStyle">
+        <item name="android:height">@dimen/default_button_height</item>
+        <item name="android:fontFamily">@font/roboto_bold</item>
+        <item name="android:textSize">@dimen/text_16</item>
+        <item name="android:textColor">@color/text_white</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@drawable/sel_rect_c4_green</item>
+    </style>
+
+    <style name="defaultEditTextStyle" parent="Widget.AppCompat.EditText">
+        <item name="android:paddingLeft">@dimen/default_horizontal_margin</item>
+        <item name="android:paddingStart">@dimen/default_horizontal_margin</item>
+        <item name="android:paddingRight">@dimen/default_horizontal_margin</item>
+        <item name="android:paddingEnd">@dimen/default_horizontal_margin</item>
+        <item name="android:paddingTop">@dimen/comm_gap_8</item>
+        <item name="android:paddingBottom">@dimen/comm_gap_8</item>
+        <item name="android:minHeight">@dimen/default_edittext_height</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:textSize">@dimen/text_16</item>
+    </style>
+
+    <style name="defaultRadioButtonStyle" parent="Widget.AppCompat.CompoundButton.RadioButton">
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">@dimen/text_16</item>
+        <item name="android:textColor">@color/default_color_sel</item>
+        <item name="android:button">@null</item>
+        <item name="android:drawableLeft">@drawable/sel_checkbox_green_filled</item>
+        <item name="android:drawablePadding">@dimen/default_horizontal_margin</item>
+    </style>
+
+    <style name="DialogFragmentStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="colorAccent">@color/red</item>
+    </style>
+
+
+    <style name="CommonDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.6</item>
+    </style>
+
+    <style name="ToolbarStyle" parent="Widget.AppCompat.Toolbar">
+        <item name="android:fitsSystemWindows">true</item>
+        <item name="android:minHeight">?attr/actionBarSize</item>
+        <item name="android:elevation" target:targetApi="lollipop">1dp</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="titleMarginStart">0dp</item>
+        <item name="contentInsetStartWithNavigation">0dp</item>
+        <item name="android:contentInsetStartWithNavigation" target:targetApi="n">0dp</item>
+        <item name="titleTextAppearance">@style/toolBarTextAppearance</item>
+        <item name="titleTextColor">@color/white</item>
+        <item name="subtitleTextColor">@color/text_666</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_nav_back</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+        <item name="android:theme">@style/ToolbarTheme</item>
+    </style>
+
+    <style name="toolBarTextAppearance">
+        <item name="android:textColor">@color/text_333</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+    </style>
+
+
+    <style name="ToolbarTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="iconTint">@color/white</item>
+        <!--<item name="android:tint">@color/colorControlNormal</item>-->
+        <!--<item name="android:textColorSecondary">@color/colorControlNormal</item>-->
+        <item name="colorControlNormal">@color/white</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+    </style>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_toast_frame"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@android:id/message"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:fontFamily="@font/helvetica"
+        android:gravity="center"
+        android:textColor="#D8D8D8"
+        android:textSize="@dimen/text_15"
+        tools:text="this is a toast!" />
+
+</LinearLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/blue1</color>
+    <color name="colorPrimaryDrack">@color/blueDrack</color>
+    <color name="colorAccent">@color/ungu</color>
+    <color name="colorControlNormal">#333333</color>
+
+    <color name="red">#DA241E</color>
+    <color name="blue1">#03D0EA</color>
+    <color name="blueDrack">#04A1B5</color>
+    <color name="ungu">#4D43AC</color>
+
+
+    <color name="rippleItemColor">#33999999</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="color_button_green">#43AC43</color>
+    <color name="color_txt_default">@color/text_333</color>
+    <color name="color_txt_hint">@color/text_gray2</color>
+
+    <color name="text_333">#333333</color>
+    <color name="text_666">#666666</color>
+    <color name="text_999">#999999</color>
+    <color name="text_gray2">#CCCCCC</color>
+    <color name="text_green">@color/color_button_green</color>
+    <color name="text_white">@android:color/white</color>
+    <color name="text_black">@android:color/black</color>
+</resources>

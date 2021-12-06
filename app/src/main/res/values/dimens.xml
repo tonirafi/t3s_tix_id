@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="default_horizontal_margin">16dp</dimen>
+    <dimen name="default_vertical_padding">12dp</dimen>
+    <dimen name="status_bar_height">30dp</dimen>
+    <dimen name="default_button_height">47dp</dimen>
+    <dimen name="default_edittext_height">47dp</dimen>
+    <!--BottomNavigationView 的选中没有选中的字体大小-->
+
+
+    <dimen name="comm_gap_16">16dp</dimen>
+    <dimen name="comm_gap_15">15dp</dimen>
+    <dimen name="comm_gap_12">12dp</dimen>
+    <dimen name="comm_gap_10">10dp</dimen>
+    <dimen name="comm_gap_8">8dp</dimen>
+    <dimen name="comm_gap_3">3dp</dimen>
+
+    <dimen name="radius_small">6dp</dimen>
+
+    <dimen name="text_16">16sp</dimen>
+    <dimen name="text_15">15sp</dimen>
+    <dimen name="text_14">14sp</dimen>
+    <dimen name="text_12">12sp</dimen>
+
+</resources>

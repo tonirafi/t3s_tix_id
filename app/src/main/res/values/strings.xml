@@ -1,0 +1,16 @@
+<resources>
+    <string name="refreshing"><![CDATA[   Refreshing…]]></string>
+    <string name="load_completed">Load Completed</string>
+    <string name="release_to_load">Release To Load</string>
+    <string name="pull_up_to_load">Pull Up To Load</string>
+    <string name="app_loading"><![CDATA[   Loading…]]></string>
+    <string name="pull_to_refresh">Pull Down To Refresh</string>
+    <string name="refresh_completed">Completed</string>
+    <string name="release_to_refresh">Release To Refresh</string>
+    <string name="there_is_no_content_yet">There is no content yet</string>
+    <string name="title_explore">Explore</string>
+    <string name="run_text">Loading</string>
+    <string name="run_text_500">Network anomaly</string>
+    <string name="run_text_200">Oops! Server Error, please try later</string>
+    <string name="run_text_other">Request error </string>
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tes_tix_id.android.configapp.utils.widget.swap.GlobalRefreshHeaderView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="10dp"
+    android:paddingTop="10dp">
+
+    <ImageView
+        android:id="@+id/ivRefresh"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:adjustViewBounds="true"
+        android:layout_marginTop="@dimen/comm_gap_3"
+        android:contentDescription="@null"
+        android:src="@drawable/ic_logo_circle_anim"
+        app:tint="@color/colorPrimary" />
+
+    <ImageView
+        android:layout_width="35dp"
+        android:layout_height="37dp"
+        android:layout_alignBottom="@+id/ivRefresh"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/comm_gap_16"
+        android:layout_marginBottom="10dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="@null" />
+
+    <TextView
+        android:id="@+id/tv_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ivRefresh"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/default_vertical_padding"
+        android:textColor="#AAAAAA"
+        android:textSize="12sp"
+        tools:text="@string/refreshing" />
+
+</com.tes_tix_id.android.configapp.utils.widget.swap.GlobalRefreshHeaderView>
